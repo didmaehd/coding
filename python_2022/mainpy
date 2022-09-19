@@ -1,5 +1,8 @@
 def say_hello(a,b):
     result = a + b
+    print(result)
 
-say_hello("hi","man")
-print(result)
+say_hello("hi"," man")
+
+
+
