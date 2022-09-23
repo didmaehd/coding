@@ -11,3 +11,6 @@ book.save("./output/hello.xlsx")
 
 sheet["A3"] = "Get out of here!"
 book.save("./output/hello.xlsx")
+
+sheet["B1"] = "ABC"
+book.save("./output/hello.xlsx")
