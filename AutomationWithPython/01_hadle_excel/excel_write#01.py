@@ -1,6 +1,6 @@
 #셀에 값을 넣는 세가지 방법
 
-from colorsys import TWO_THIRD
+
 import openpyxl as excel
 #워크북 생성
 book = excel.Workbook()

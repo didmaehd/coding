@@ -1,6 +1,5 @@
 #구구단 입력하기
 
-from pyexpat.model import XML_CTYPE_CHOICE
 import openpyxl as excel
 
 book = excel.Workbook()
@@ -23,3 +22,4 @@ for a in range(1,100):
         cell.value = a*b
         
 book.save("./output/write_99x99.xlsx")
+
