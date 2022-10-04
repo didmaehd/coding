@@ -39,7 +39,7 @@ pc_choice = randint(1,50)
 print (f"Welcome {name} !. Can you guess the number that PC chose?")
 playing = True
 while playing:
-    user_choice = int(input("Choose number. "))
+    user_choice = int(input("Choose number. : "))
     if user_choice == pc_choice:
         print ("You won!") # 정답이면 게임 종료 - while가 더이상 실행되지 않게 playing 값을 false 로 변경
         print ("Game Over!")

@@ -19,3 +19,8 @@ print (result1)
 
 
 
+
+
+
+ab = 1234567
+print ((ab)[3:]) 

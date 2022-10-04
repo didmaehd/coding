@@ -29,6 +29,7 @@ for i in range(81):
     global_age ={"after_bday":korea_age -1 , "before_bday":korea_age -2}
     hundred_age = 100 - korea_age
     school_age = birth_year + 8
+    middle_age = school_age + 6
 
     year_cell=sheet.cell(i+2, 1)
     year_cell.value = str(birth_year) + "년생"
@@ -47,6 +48,9 @@ for i in range(81):
 
     age_cell = sheet.cell(i+2, 6)
     age_cell.value = str(school_age) + "년" 
+
+    age_cell = sheet.cell(i + 2, 7)
+    age_cell.value = str(middle_age) + "년"
 
 sheet["D2"] = "-"
 
