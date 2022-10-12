@@ -27,7 +27,6 @@ add_result=add(5,3)
 sqare(add_result)
 
 
-
 def number(a):
     print(f"초기 값은 {a}입니다.")
     return a

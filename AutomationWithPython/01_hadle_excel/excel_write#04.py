@@ -10,4 +10,4 @@ for a in range (1,31):
         cell = sheet.cell(row=a,column=b)
         cell.value = cell.coordinate
 
-book.save("./output/write_coordinate.xlsx")
+book.save("./output/write_cellname.xlsx")
