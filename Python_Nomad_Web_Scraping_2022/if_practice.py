@@ -33,6 +33,7 @@ import string
 
 
 #while 연습
+
 name = input("What's your name : ")
 pc_choice = randint(1,50)
 print (f"Welcome {name} !. Can you guess the number that PC chose?")
